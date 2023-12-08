@@ -1,11 +1,11 @@
 repo_name: DimondDot/Selenium
-report_id: 1c67455391609c87a0707dea6f724dba
+report_id: 3a6a2a3eadde895c2f275a2a272fee85
 repo_type: Public
-timestamp: '2023-12-05T08:26:44+00:00'
+timestamp: '2023-12-08T13:09:25+00:00'
 requested_by: web-flow
 provider: github
 branch: main
-detected_tools_count: 20
+detected_tools_count: 22
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -26,6 +26,17 @@ tools:
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
   detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: DataDrivenFramwork/name.txt
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
 - name: Git
@@ -61,6 +72,17 @@ tools:
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/8900/no-img-open-source.png
   detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: DataDrivenFramwork/name.txt
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
 - name: com.google.inject:guice
