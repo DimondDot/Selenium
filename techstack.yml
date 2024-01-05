@@ -1,11 +1,12 @@
 repo_name: DimondDot/Selenium
-report_id: 3a6a2a3eadde895c2f275a2a272fee85
+report_id: 18233b3cd200229d44382dbe46d80699
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-08T13:09:25+00:00'
+timestamp: '2024-01-05T15:38:22+00:00'
 requested_by: web-flow
 provider: github
 branch: main
-detected_tools_count: 22
+detected_tools_count: 20
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/DimondDot/Selenium
   detection_source: Repo Metadata
 - name: MySQL
   description: The world's most popular open source database
@@ -25,18 +27,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
-  last_updated_by: Bhautik
-  last_updated_on: 2022-11-16 11:28:48.000000000 Z
-- name: pgvector
-  description: Open-source vector similarity search for Postgres
-  website_url: https://github.com/pgvector/pgvector/
-  open_source: false
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Database Tools
-  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
-  detection_source: DataDrivenFramwork/name.txt
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
 - name: Git
@@ -47,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DimondDot/Selenium
   detection_source: Repo Metadata
 - name: Log4j
   description: A Java-based logging utility
@@ -58,7 +51,7 @@ tools:
   category: Monitoring
   sub_category: Logging Tools
   image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -71,18 +64,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/8900/no-img-open-source.png
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
-  last_updated_by: Bhautik
-  last_updated_on: 2022-11-16 11:28:48.000000000 Z
-- name: LangChain
-  description: Build AI apps with LLMs through composability
-  website_url: https://github.com/hwchase17/langchain
-  open_source: true
-  hosted_saas: false
-  category: Communications
-  sub_category: Large Language Model Tools
-  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
-  detection_source: DataDrivenFramwork/name.txt
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
 - name: com.google.inject:guice
@@ -95,7 +78,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -108,7 +91,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -121,7 +104,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -141,7 +124,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -167,7 +150,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -180,7 +163,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -193,7 +176,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -237,7 +220,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -276,7 +259,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -338,7 +321,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -351,7 +334,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -364,7 +347,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -384,7 +367,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -397,7 +380,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -418,7 +401,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source_url: https://github.com/DimondDot/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
